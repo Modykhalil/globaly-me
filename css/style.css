@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     
+    
 }
 
 
@@ -79,15 +80,14 @@ header .first .div2 .div3 {
 
 
 header .first .div2 .div3 input {
-  
-    width:250px;
-
-      height: 40px;
+    width: 250px;
+    height: 40px;
     padding: 10px 40px 10px 20px;
     outline: 0;
     background-color: #4a4e55;
     color: white;
     border: none
+    
 }
 
 
@@ -229,9 +229,9 @@ header .first .div2 .div3 a:hover i {
     position: absolute;
  color: white;
    top: 50%;
-   left: 20%;
+   left: 30%;
    text-align: center;
-   width: 50%;
+   width: 60%;
 
    
 }
@@ -1100,6 +1100,27 @@ background-color: #32353e;
 
 
 
+html::-webkit-scrollbar {
+    width: 18px
+}
+
+
+html::-webkit-scrollbar-track {
+    background: #e0e0e09a
+}
+
+html::-webkit-scrollbar-thumb {
+    
+    background: #32353e;
+   
+
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: #15c0c7;
+    border-radius: 25px;
+    
+}
 
 
 
